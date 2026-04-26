@@ -1,7 +1,7 @@
 Student Management System (C++)
 A robust, console-based application designed to streamline the management of student records. This project provides a digital alternative to manual record-keeping, allowing for efficient data entry, retrieval, and modification.
 
-🚀 Key Features
+Key Features
 Batch Data Entry: Input details for multiple students in a single session.
 
 Comprehensive View: Display all saved records in a structured list.
@@ -12,7 +12,7 @@ Record Modification: Update existing student information without deleting the en
 
 Flexible Deletion: Options to remove a specific student record or wipe the entire database.
 
-🛠️ Technical Implementation & Concepts
+ Technical Implementation & Concepts
 The project demonstrates the practical use of several core C++ programming concepts:
 
 Parallel Arrays: Utilizes multiple string arrays (arr1 to arr5) to store different data attributes (Name, Roll No, Course, etc.) in parallel based on a shared index.
@@ -29,7 +29,7 @@ Memory Management & Shifting: The deletion module implements a shifting algorith
 
 Linear Search Algorithm: Implements a search loop to compare user input against stored Roll Numbers to locate specific indices.
 
-📂 Project Architecture
+ Project Architecture
 enter(): Handles user input and manages data appending logic.
 
 show(): Iterates through arrays to display stored data.
@@ -40,7 +40,7 @@ update(): Combines search logic with input streams to overwrite existing data.
 
 deleterecord(): Manages record removal and reorganizes array indices to prevent data fragmentation.
 
-💻 How to Execute
+ How to Execute
 Compile: Copy the source code into any C++ IDE (Dev-C++, Visual Studio Code, or Code::Blocks).
 
 Run: Execute the compiled file.
